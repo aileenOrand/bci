@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta charset="utf-8" />
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" />
+
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script type="text/javascript" src="https://github.com/christianbach/tablesorter/blob/master/jquery-latest.js"></script>
+
+<script type="text/javascript" src="admin.js"></script>
+
+<style type="text/css">
+#divSesiones {
+	margin: auto auto;
+	width: 80%;
+}
+
+#div_tablaSesiones {
+}
+
+#tablaSesiones {
+	margin: auto auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#tablaSesiones th {
+	border: 1px solid black;
+	padding: 3px 3px 3px 3px;
+	text-align: center;
+	background: #CCCCEE;
+}
+
+#tablaSesiones td {
+	border: 1px solid black;
+	padding: 4px 4px;
+	text-align: center;
+	font-family: monospace;
+}
+
+#tablaSesiones tr:hover td {
+	background: #FFFFCC;
+	cursor: pointer;
+}
+
+
+#divSesion {
+	visibility: hidden;
+	padding:5px 5px 5px 5px;
+	margin-bottom:20px;
+}
+#divSesion .datos {
+	width:700px;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+table.datos td {
+	border: 1px solid #cccccc;
+	padding: 2px 2px;
+}
+.tipo {
+	text-align: center;
+	font-weight: bold;
+}
+.campo {
+	font-weight: bold;
+}
+.valor {
+	font-family: monospace;
+}
+
+#files {
+	font-family: monospace;
+	font-size: 10px;
+}
+#tableFiles {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: monospace;
+	font-size: 11px;
+}
+#tableFiles td {
+	border: 0px solid red;
+	padding: 0px 0px;
+}
+#tableFiles tr:hover td {
+	background-color: #FFFFCC;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="divSesiones">
+	<div align="right">
+		<a href="javascript:loadSessions()">RELOAD</a>
+	</div>
+	<div id="div_tablaSesiones"></div>
+</div>
+
+<div id="divSesion" title="Detalle Sesi&oacute;n">
+	<table class="datos" style="float: left">
+		<thead>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="2" class="tipo">Datos Sesión</td>
+			</tr>
+			<tr>
+				<td class="campo" width="30%">Id:</td>
+				<td class="valor" id="id" width="70%"></td>
+			</tr>
+			<tr>
+				<td class="campo">Fecha:</td>
+				<td class="valor" id="fecha"></td>
+			</tr>
+			<tr>
+				<td class="campo">Estado:</td>
+				<td class="valor" id="estado"></td>
+			</tr>
+			<tr>
+				<td class="campo">Remote IP:</td>
+				<td class="valor" id="remoteIp"></td>
+			</tr>
+			<tr>
+				<td class="campo">User-Agent:</td>
+				<td class="valor" id="userAgent"></td>
+			</tr>
+			<tr>
+				<td class="campo">Usuario:</td>
+				<td class="valor" id="phoneName"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="tipo">Datos Cédula</td>
+			</tr>
+			<tr>
+				<td class="campo">Rut:</td>
+				<td class="valor" id="rut"></td>
+			</tr>
+			<tr>
+				<td class="campo">Serie:</td>
+				<td class="valor" id="serie"></td>
+			</tr>
+			<tr>
+				<td class="campo">Nombre:</td>
+				<td class="valor" id="nombre"></td>
+			</tr>
+			<tr>
+				<td class="campo">Sexo:</td>
+				<td class="valor" id="sexo"></td>
+			</tr>
+			<tr>
+				<td class="campo">Nacionalidad:</td>
+				<td class="valor" id="nacionalidad"></td>
+			</tr>
+			<tr>
+				<td class="campo">Fecha Nacimiento:</td>
+				<td class="valor" id="nacimiento"></td>
+			</tr>
+			<tr>
+				<td class="campo">Fecha Emisión:</td>
+				<td class="valor" id="emision"></td>
+			</tr>
+			<tr>
+				<td class="campo">Fecha Vencimiento:</td>
+				<td class="valor" id="vencimiento"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="tipo">Datos Video</td>
+			</tr>
+			<tr>
+				<td class="campo">Resultado video:</td>
+				<td class="valor" id="video_result"></td>
+			</tr>
+			<tr>
+				<td class="campo">Puntaje video:</td>
+				<td class="valor" id="video_score"></td>
+			</tr>
+			<tr>
+				<td class="campo">Reporte:</td>
+				<td class="valor" id="report"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="tipo">Archivos</td>
+			</tr>
+			<tr>
+				<td colspan="2"><div id="files"></div></td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="float: left" id="superior"></div>
+	<div style="float: left" id="posterior"></div>
+	<div style="float: left" id="frame0"></div>
+	<div style="float: left" id="frame1"></div>
+	
+	<div style="clear:both"></div>
+</div>
+
+</body>
+</html>

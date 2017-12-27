@@ -1,0 +1,100 @@
+var prueba={"sessions":[{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"26/07/2017 14:29:43","cedula_paterno":"FUENZALIDA","session_id":"j5lchc2d-54943d75-5f20-45bf-ad8c-17f493509124","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5lchc2d-54943d75-5f20-45bf-ad8c-17f493509124/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"26/07/2017 11:59:49","cedula_paterno":"","session_id":"j5l74kat-6fd1ed6f-b5f3-46c1-87b6-03506f4921aa","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"26/07/2017 11:58:33","cedula_paterno":"","session_id":"j5l72y2y-de5a6c2f-8972-4bd1-95a5-d7b54c04945a","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"26/07/2017 11:53:49","cedula_paterno":"FUENZALIDA","session_id":"j5l6wu7v-b24aebbb-b9a2-4206-a935-e8abd0adaebc","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5l6wu7v-b24aebbb-b9a2-4206-a935-e8abd0adaebc/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"25/07/2017 15:22:15","cedula_paterno":"FUENZALIDA","session_id":"j5jyx1d7-6fca3e8a-e452-4502-a504-9af2854555b6","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5jyx1d7-6fca3e8a-e452-4502-a504-9af2854555b6/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"25/07/2017 12:50:33","cedula_paterno":"FUENZALIDA","session_id":"j5jthya8-26d7751e-fc57-4717-87cc-5597235a553b","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5jthya8-26d7751e-fc57-4717-87cc-5597235a553b/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"25/07/2017 12:49:25","cedula_paterno":"LARA","session_id":"j5jtgi0g-14b7b460-51d3-4f93-9e90-7cefc56fc33a","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5jtgi0g-14b7b460-51d3-4f93-9e90-7cefc56fc33a/current_cedula_face.jpg","cedula_nombres":"FEDERICO MARCELO JDSE","cedula_rut":"","cedula_materno":"MENDEZ"},{"final_report":"TN","nombre_telefono":"Orand","session_fecha":"25/07/2017 11:19:21","cedula_paterno":"AMAYA","session_id":"j5jq8o2p-557a9631-95df-4fba-998a-aaa359597e05","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5jq8o2p-557a9631-95df-4fba-998a-aaa359597e05/current_cedula_face.jpg","cedula_nombres":"NICOLAS ANDRES","cedula_rut":"10261573-5","cedula_materno":"GAMONAL"},{"final_report":"","nombre_telefono":"Orand","session_fecha":"25/07/2017 10:44:16","cedula_paterno":"","session_id":"j5jozk28-acbefdb2-ced5-464d-8e57-15542980d886","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 17:56:36","cedula_paterno":"FUENZALIDA","session_id":"j5iozoej-0f0547a0-0dd4-4a2a-8fa4-29788806f81b","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5iozoej-0f0547a0-0dd4-4a2a-8fa4-29788806f81b/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 17:56:27","cedula_paterno":"","session_id":"j5iozhr5-a94de2d8-6206-4003-b9da-4a8b5b504a49","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 16:23:01","cedula_paterno":"FUENZALIDA","session_id":"j5ilnccb-0a070041-b668-4a5e-ab68-36f327598de2","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5ilnccb-0a070041-b668-4a5e-ab68-36f327598de2/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 16:22:56","cedula_paterno":"","session_id":"j5iln86t-849b3f60-3d99-4658-9e79-eab9ada5aee8","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 16:17:29","cedula_paterno":"FUENZALIDA","session_id":"j5ilg7sb-7e43aa0b-6af4-4383-b554-31b32ee22a13","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5ilg7sb-7e43aa0b-6af4-4383-b554-31b32ee22a13/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"11390283-3","cedula_materno":"ROJAS "},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"24/07/2017 14:32:11","cedula_paterno":"FUENZALIDA","session_id":"j5ihosp8-0acbb761-644b-4458-aa57-76ee635a3cff","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5ihosp8-0acbb761-644b-4458-aa57-76ee635a3cff/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"","cedula_materno":"ROJAS "},{"final_report":"TN","nombre_telefono":"Sandra Salgado","session_fecha":"22/07/2017 20:25:19","cedula_paterno":"PEDREROS","session_id":"j5fzf8ed-e5b17eb0-f5a7-431a-8d2d-4f5aa98b913e","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5fzf8ed-e5b17eb0-f5a7-431a-8d2d-4f5aa98b913e/current_cedula_face.jpg","cedula_nombres":"JUAN DE DIOS","cedula_rut":"","cedula_materno":"GAETE "},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 15:59:25","cedula_paterno":"FUENZALIDA","session_id":"j5eahfa7-b12f74e7-da48-496a-90ad-3981757a198b","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5eahfa7-b12f74e7-da48-496a-90ad-3981757a198b/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 15:28:43","cedula_paterno":"","session_id":"j5e9dyah-6c4e6d2d-7c2d-4a3d-beaa-70a6f30f1954","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:52:58","cedula_paterno":"QUINTEROS","session_id":"j5e83zh9-3c7cb5be-f4d9-4fc1-a8af-5153f1c00d29","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e83zh9-3c7cb5be-f4d9-4fc1-a8af-5153f1c00d29/current_cedula_face.jpg","cedula_nombres":"FELIPE ANTONIO","cedula_rut":"16937826-6","cedula_materno":"URZUA "},{"final_report":"TN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:51:21","cedula_paterno":"QUINTEROS","session_id":"j5e81wfe-061861d0-ca7d-4ca2-8600-dbe11388c1b7","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e81wfe-061861d0-ca7d-4ca2-8600-dbe11388c1b7/current_cedula_face.jpg","cedula_nombres":"FELIPE ANTONIO","cedula_rut":"16937826-6","cedula_materno":"URZUA "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:50:41","cedula_paterno":"","session_id":"j5e811q6-2d1d2fe5-6672-495e-ac11-3e129b7a4555","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:47:17","cedula_paterno":"","session_id":"j5e7wnze-9c12abf5-75f9-49d8-b6d1-d84e1a5b8d4d","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:45:07","cedula_paterno":"","session_id":"j5e7tvh1-a521e062-0704-4d8e-8652-fd0022e6e280","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 14:21:51","cedula_paterno":"","session_id":"j5e6zynu-7da12b86-8c11-4a75-b53c-499409ef726e","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:43:39","cedula_paterno":"FUENZALIDA","session_id":"j5e3ho7s-a43994dd-1d2c-4197-a165-0af3574e269c","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e3ho7s-a43994dd-1d2c-4197-a165-0af3574e269c/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:30:59","cedula_paterno":"","session_id":"j5e31do6-bd250a98-2826-4e34-ba96-dc0868fa32e1","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:27:35","cedula_paterno":"MARTINEZ","session_id":"j5e2x0p3-8fe6336d-8e93-4a8b-ad46-b948b0d677a4","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e2x0p3-8fe6336d-8e93-4a8b-ad46-b948b0d677a4/current_cedula_face.jpg","cedula_nombres":"VICENTE DE PAUL","cedula_rut":"13893526-4","cedula_materno":"OJEDA "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:27:02","cedula_paterno":"","session_id":"j5e2wasv-af38e8a5-f0ab-40f4-8a38-56183717f66e","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:25:48","cedula_paterno":"","session_id":"j5e2uq1p-819b75ea-2664-45a5-ac67-7bc0f37a0476","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:20:41","cedula_paterno":"AROCHA","session_id":"j5e2o4t5-c22bf065-51b6-4ca3-9d08-f9d6af25a193","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e2o4t5-c22bf065-51b6-4ca3-9d08-f9d6af25a193/current_cedula_face.jpg","cedula_nombres":"JAVIER ENRIQUE","cedula_rut":"","cedula_materno":"ATENCIO"},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:20:21","cedula_paterno":"","session_id":"j5e2npjj-2e04b87f-78d6-45cc-8ad7-ad24a56b51b7","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 12:17:50","cedula_paterno":"AROCHA","session_id":"j5e2kh8n-72533fcb-63ad-45fd-ae7b-a8d25aa36318","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e2kh8n-72533fcb-63ad-45fd-ae7b-a8d25aa36318/current_cedula_face.jpg","cedula_nombres":"JAVIER ENRIQUE","cedula_rut":"25008090-5","cedula_materno":"ATENCIO"},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 11:14:23","cedula_paterno":"FUENZALIDA","session_id":"j5e0avez-278defe1-72c5-45ea-9991-2adff012a9cf","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5e0avez-278defe1-72c5-45ea-9991-2adff012a9cf/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"TN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 10:52:29","cedula_paterno":"LARA","session_id":"j5dzipzl-0d773397-58b2-49f5-8f4a-dbed79258f1e","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5dzipzl-0d773397-58b2-49f5-8f4a-dbed79258f1e/current_cedula_face.jpg","cedula_nombres":"FEDERICO MARCELO JOSE","cedula_rut":"","cedula_materno":"MENDEZ"},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 10:50:31","cedula_paterno":"LARA","session_id":"j5dzg6zm-2a56c95e-790a-47b2-a0d1-334e4ff17f59","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5dzg6zm-2a56c95e-790a-47b2-a0d1-334e4ff17f59/current_cedula_face.jpg","cedula_nombres":"FEDERILOU MARCELO JOSE","cedula_rut":"","cedula_materno":"MEND "},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 10:47:25","cedula_paterno":"LARA","session_id":"j5dzc74s-d3d83f3c-4f4e-4f9a-867d-ed7fe33bab77","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5dzc74s-d3d83f3c-4f4e-4f9a-867d-ed7fe33bab77/current_cedula_face.jpg","cedula_nombres":"FEDERICO MARCELO JOSE","cedula_rut":"24460492-7","cedula_materno":"MENDEZ"},{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 10:11:26","cedula_paterno":"TRAVERSO","session_id":"j5dy1xl9-cdd0886c-adbf-4c7d-a037-3d38e06b4c5d","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5dy1xl9-cdd0886c-adbf-4c7d-a037-3d38e06b4c5d/current_cedula_face.jpg","cedula_nombres":"JUAN PABLO","cedula_rut":"","cedula_materno":"GIANINI "},{"final_report":"","nombre_telefono":"Orand","session_fecha":"21/07/2017 09:53:05","cedula_paterno":"SAAVEDRA","session_id":"j5dxebub-e44fe645-b6eb-4250-be8d-ef6216e2b1e4","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5dxebub-e44fe645-b6eb-4250-be8d-ef6216e2b1e4/current_cedula_face.jpg","cedula_nombres":"ADRIANA NOEMI","cedula_rut":"23515862-0","cedula_materno":"CHANG "},{"final_report":"TN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"21/07/2017 08:44:23","cedula_paterno":"PALMA","session_id":"j5duxyyl-1ba92920-ebc6-4239-b765-1e566f4e922f","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5duxyyl-1ba92920-ebc6-4239-b765-1e566f4e922f/current_cedula_face.jpg","cedula_nombres":"MAURICIO EDUARDO","cedula_rut":"10782071-K","cedula_materno":"LIZANA"},{"final_report":"TN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:22:30","cedula_paterno":"SOTO","session_id":"j5d4fweq-de5c87e8-eefe-40e0-b663-e7e051d8dd22","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5d4fweq-de5c87e8-eefe-40e0-b663-e7e051d8dd22/current_cedula_face.jpg","cedula_nombres":"ERNA MDNICA","cedula_rut":"5600326-6","cedula_materno":"ALCOHOLADO"},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:19:46","cedula_paterno":"","session_id":"j5d4cegb-e5545517-a6f8-4968-8e1c-013b1445fc15","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"FN","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:16:57","cedula_paterno":"RAMIREZ","session_id":"j5d48ris-96250fe0-d6cd-441f-a6ce-51afe0525726","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5d48ris-96250fe0-d6cd-441f-a6ce-51afe0525726/current_cedula_face.jpg","cedula_nombres":"JULIAN ANTONIO","cedula_rut":"23267443-1","cedula_materno":"GHIARDO"},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:15:28","cedula_paterno":"","session_id":"j5d46v01-20634f37-63ad-49ba-90da-5db3f515c44d","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:13:13","cedula_paterno":"GHIARDO","session_id":"j5d43yqu-0bb1e9fb-5d6f-49f7-95d8-27030b7a685c","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5d43yqu-0bb1e9fb-5d6f-49f7-95d8-27030b7a685c/current_cedula_face.jpg","cedula_nombres":"DANIELA","cedula_rut":"13039684-4","cedula_materno":"SOTO "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 20:11:21","cedula_paterno":"","session_id":"j5d41k9m-e2289ade-223f-4487-bb64-98e779435e9f","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"TP","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 18:38:39","cedula_paterno":"FUENZALIDA","session_id":"j5d0qcw4-44fec7a7-319e-458d-9888-0f746e05fc56","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5d0qcw4-44fec7a7-319e-458d-9888-0f746e05fc56/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 18:38:15","cedula_paterno":"","session_id":"j5d0pugt-1a84078a-0244-465a-8376-9c08ca8ca67c","cedula_nombres":"","cedula_rut":"","cedula_materno":""},{"final_report":"","nombre_telefono":"Sebastian Fuenzalida","session_fecha":"20/07/2017 17:35:53","cedula_paterno":"FUENZALIDA","session_id":"j5cyhn8s-96906021-352b-449f-8807-07d97101ef88","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5cyhn8s-96906021-352b-449f-8807-07d97101ef88/current_cedula_face.jpg","cedula_nombres":"DENNIS SEBASTIAN","cedula_rut":"13902833-3","cedula_materno":"ROJAS "},{"final_report":"","nombre_telefono":"Orand","session_fecha":"20/07/2017 13:09:53","cedula_paterno":"AMAYA","session_id":"j5cozkac-af1ef053-da8a-45bf-a4b8-48bcfc43ab72","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5cozkac-af1ef053-da8a-45bf-a4b8-48bcfc43ab72/current_cedula_face.jpg","cedula_nombres":"NICOLAS ANDRES","cedula_rut":"10261573-5","cedula_materno":"GAMONAL"},{"final_report":"","nombre_telefono":"Orand","session_fecha":"20/07/2017 13:05:23","cedula_paterno":"AMAYA","session_id":"j5cotryc-82b54ff0-c561-45e2-86a1-7800f4990dcf","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5cotryc-82b54ff0-c561-45e2-86a1-7800f4990dcf/current_cedula_face.jpg","cedula_nombres":"NICOLAS ANDRES","cedula_rut":"10261573-5","cedula_materno":"GAMONAL"},{"final_report":"","nombre_telefono":"Orand","session_fecha":"20/07/2017 12:58:13","cedula_paterno":"AMAYA","session_id":"j5cokk9x-d99a443e-843a-4624-a22b-093db3b117e4","cedula_face_url":"http://192.168.1.96/bci-biometria/admin/j5cokk9x-d99a443e-843a-4624-a22b-093db3b117e4/current_cedula_face.jpg","cedula_nombres":"NICOLAS ANDRES","cedula_rut":"10261573-5","cedula_materno":"GAMONAL "}],"status":0};
+var SERVICE_PREFIX = "api/v1/rest/admin"
+var filtro=true;
+$(document).ready(function() {
+	llamarSesiones()
+ if ($('#tabla').length>0){
+		$('#tabla').DataTable( {
+        "order": [[ 2, "desc" ]]
+    } );
+	}
+});
+function cargarResultados(){
+	console.log('entra')
+	filtro=$("#pruebas").is(":checked");
+	var datos=contarDatos(datosT,filtro);
+	generarTabla(datos);		
+}
+function llamarSesiones(){
+$.ajax({
+		url : SERVICE_PREFIX + "/sesiones",
+		type : 'get',
+		dataType : 'json',
+		async : true,
+		success : function(data) {
+			if (!data || data["status"] != 0) {
+				printError();
+			} else {
+				guardarSesiones(data)
+			}
+		},
+		error : function(data) {
+			printError();
+		}
+	});
+ guardarSesiones(prueba)
+ cargarResultados();
+}
+function printError(){
+	alert("error de conexion");
+}
+datosT={};
+function guardarSesiones(data){
+	datosT=data;
+}
+
+var contadores={}
+function contarDatos(data,filtro){
+	contadores={}
+	if(data["status"]==0){
+		var sesiones=data["sessions"];
+		for (var i=0; i<sesiones.length;i++){
+			if (filtro==true){
+				if (contadores[sesiones[i]["nombre_telefono"]]!=undefined){
+					contadores[sesiones[i]["nombre_telefono"]]=contadores[sesiones[i]["nombre_telefono"]]+1;
+				}
+				else{
+					contadores[sesiones[i]["nombre_telefono"]]=1;
+				}
+			}
+			else{
+				if (sesiones[i]["nombre_telefono"]!="" && sesiones[i]["nombre_telefono"]!="Camila Alvarez" && sesiones[i]["nombre_telefono"]!="Sebastian Fuenzalida"&& sesiones[i]["nombre_telefono"]!="Orand"&& sesiones[i]["nombre_telefono"]!="Sandra Salgado"){
+					if (contadores[sesiones[i]["nombre_telefono"]]!=undefined){
+						contadores[sesiones[i]["nombre_telefono"]]=contadores[sesiones[i]["nombre_telefono"]]+1;
+					}
+					else{
+						contadores[sesiones[i]["nombre_telefono"]]=1;
+					}
+				}
+			}
+		}
+	}
+	// Crear array
+	var items = Object.keys(contadores).map(function(key) {
+    return [key, contadores[key]];
+	});
+
+	// ordenar basado en el contador
+	items.sort(function(first, second) {
+    return second[1] - first[1];
+	});
+	return items
+}
+
+
+function generarTabla(datos){
+	tabla='<table width="80%" id="tabla">'
+	tabla=tabla+"<thead><tr><th style='text-align:center;'>Ranking</th><th>Nombre</th><th style='text-align:center;'>#Pruebas</th></tr></thead><tbody>"
+	
+	for (var i=0; i<datos.length;i++){
+		var lugar=i+1;
+		fila="<tr><td style='text-align:center;'>"+lugar+"</td><td>"+datos[i][0]+"</td><td style='text-align:center;'>"+datos[i][1]+"</td></tr>";
+		tabla=tabla+fila;
+		
+	}
+	tabla=tabla+"</tbody></table>";
+	if ($('#tabla').length>0){
+		$('#tabla').html(tabla);
+	}
+	 
+}

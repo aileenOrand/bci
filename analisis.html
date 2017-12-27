@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}	
+.amcharts-chart-div a {display:none !important;}
+.ui-datepicker-calendar .ui-state-active {
+  background: #6eafbf;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  color: #e0e0e0;
+  text-shadow: 0px 1px 0px #4d7a85;
+  filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+  border: 1px solid #55838f;
+  position: relative;
+  margin: -1px;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+
+<script src="library/amchart.js"></script>
+<script src="library/pie.js"></script>
+<script src="library/serial.js"></script>
+<script src="library/export.min.js"></script>
+<link rel="stylesheet" href="css/export.css" type="text/css" media="all" />
+<script src="library/light.js"></script>
+ <script src="library/d3.v3.min.js"></script>
+<script src="library/d3-color.v1.min.js"></script>
+<script src="library/d3-interpolate.v1.min.js"></script>
+<script src="library/d3-scale-chromatic.v1.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="library/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="library/jquery.dataTables.min.js"></script>
+
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery.dataTables.min.css" />
+
+<script src="library/jquery-ui.js"></script>
+<script src="library/bootstrap.min.js"></script>
+
+
+  <script  type="text/javascript"  src="analisis.js"></script>
+  <script>
+  $(function() {
+            $( "#inicio" ).datepicker({ dateFormat: 'yy-mm-dd' });
+			  $( "#fin" ).datepicker({ dateFormat: 'yy-mm-dd' });
+         });
+
+  </script>
+  </head>
+ <body>
+ <div class="row">
+   <div class="col-xs-12">
+   <div class="row" style="text-align:center">
+   <h1>Análisis de resultados</h1>
+   </div>
+   <div class="row">
+		<div class="col-xs-6"></div>
+		<div class="col-xs-2">
+		
+			<div class="row">
+				<label><span id="fechaI">Fecha Inicio</span></label>
+			</div>
+			<div class="row">
+				<input type="text" id="inicio" onkeydown="return false" onchange="cambioFecha()"/>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row">
+				<label><span id="fechaF">Fecha Fin</span></label>
+			</div>
+			<div class="row">
+				<input type="text" id="fin" onkeydown="return false" onchange="cambioFecha();"/>
+			</div>
+		
+		</div>
+		<div class="col-xs-2">
+		<div class="row"></div>
+		<div class="row">
+		<input type="checkbox" id="pruebas" onchange="cambioFecha()" checked>Usuarios prueba<br>
+		</div>
+		</div>
+	</div>
+	
+	
+</div>
+ </div>
+ <br>
+ <br>
+ <hr>
+ <div class="row">
+	  <div class="col-xs-3">
+
+	 </div>
+	 <div class="col-xs-6">
+	<table class="tg table table-bordered" id="tabla" width="100%">
+	
+		  <tr>
+			<th class="tg-yw4l" colspan="2" rowspan="2"></th>
+			<th class="tg-amwm" colspan="2">Predicción</th>
+		  </tr>
+		  <tr>
+			<td class="tg-yw4l">Positivo</td>
+			<td class="tg-yw4l">Negativo</td>
+		  </tr>
+		  <tr>
+			<td class="tg-amwm" rowspan="2">Real</td>
+			<td class="tg-yw4l">Positivo</td>
+			<td class="tg-yw4l"><span id="tp"></span></td>
+			<td class="tg-yw4l"><span id="fn"></span</td>
+		  </tr>
+		  <tr>
+			<td class="tg-yw4l">Negativo</td>
+			<td class="tg-yw4l"><span id="fp"></span</td>
+			<td class="tg-yw4l"><span id="tn"></span</td>
+		  </tr>
+    </table>
+	 </div>
+	 <div class="col-xs-3">
+	 </div>
+ </div>
+ 
+ <br><br>
+ <hr>
+ <div class="row">
+  <div class="col-xs-3"></div>
+   <div class="col-xs-6">
+   <table class="tg table table-bordered" width="100%">
+  <tr>
+    <th class="tg-amwm">#Sesiones</th>
+    <th class="tg-031e" colspan="2"><span id="cantSesiones"></span></th>
+  </tr>
+  <tr>
+    <td class="tg-amwm" rowspan="2">#Sesión evaluada</td>
+    <td class="tg-031e">Si</td>
+    <td class="tg-031e"><span id="cantSesionesEvaluadas"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">No</td>
+    <td class="tg-031e"><span id="cantSesionesNoEvaluadas"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" rowspan="2">#Sesión finalizada</td>
+    <td class="tg-yw4l">Si</td>
+    <td class="tg-yw4l"><span id="cantSesionesCompletas"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">No</td>
+    <td class="tg-yw4l"><span id="cantSesionesIncompletas"></span></td>
+  </tr>
+</table>
+  
+   </div>
+   <div class="col-xs-3"></div>
+ </div>
+ <br><br><hr>
+ <div class="row">
+ <div class="col-xs-1"></div>
+ <div class="col-xs-10" id="chartdiv"></div>
+ 
+  <div class="col-xs-1"></div>
+ </div>
+ </body>
+ </html>
